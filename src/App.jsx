@@ -1,13 +1,17 @@
-import { useState } from 'react'
-import './App.css'
+//import { useState } from 'react'
+
+//import './App.css'
+//import About from './components/About'
+//import Not404 from './components/Not404'
+import Login from './components/Login'
+import Register from './components/Register'
 
 function App() {
 
   return (
     <>
-
-      <h1>Страница, посветена на N & O станциите</h1>
-
+      <Register />
+      <Login />
     </>
   )
 }

@@ -1,15 +1,33 @@
 
 body{
   color: white;
-  background-image: url("https://priyom.org/media/71188/optimized-sdrbackground4.jpg");
+  
   background-size: cover;
   margin: auto;
-  
+
 }
 
-h1{
-  color: red;
+h2{
+  color: white;
   text-align: center;
   margin: auto;
+}
+
+h3{
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+/*
+.container{
+  place-items: center;
+}
+*/
+.container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
